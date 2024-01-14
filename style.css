@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,600;1,800&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,600;1,700;1,800&display=swap');
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+.btn-primary{
+   color: #FFF;
+   border-radius: 8px;
+   background: #FF900E;
+   padding: 20px 25px;
+   text-align: center;
+   font-size: 1.25rem;
+   font-weight: 600;
+   cursor: pointer;
+   border: 0;
+   }
+/* header section start */
+.header{
+ background-color: rgba(255, 144, 14, 0.10);
+ padding: 50px 240px;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title{
+    color:#131313;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 2.8em;
+    font-weight: 700;
+}
+.icon > ul{
+    display: flex;
+    justify-content: space-between;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    color: #424242;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 26px; 
+}
+/* banner section  */
+.nanner-content{
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+}
+.banner-title{
+ color:#131313;
+ text-align: center;
+font-size: 4rem;
+font-weight: 700;
+}
+ .banner-des{
+    color: #727272;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+} 
+.banner img{
+    width: 100%;
+    margin-top: 30px;
+}
+
+/* main section  */
+main{
+    max-width: 1140px;
+    background-color: red;
+    margin: 0 auto;
+}
+/* team section  */
+
+.team-container{
+  display: flex;
+  align-items: center;
+}
+.team-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.5rem;
+}
+.team-content{
+    padding: 0 70px;
+}
+.team-title{
+font-size: 1.8em;
+font-weight: 700;
+}
+.quick-list{
+    color: #727272;
+}
+.of-our
+{
+    color: #131313;
+}
+.text-feature{
+    color: #FF900E;
+}
+
+
+
+/* responsive query */
+/* mobile device */
+@media screen and (max-width:576px) {
+    .header{
+        padding: 20px;
+    }
+    .nav-bar, .icon > ul{
+        flex-direction: column;
+    }
+    /* main section  */
+}
+
+/* tablet device */
+@media screen and (min-width:577px) and (max-width:960px) {
+    .header{
+        padding: 30px;
+    }
+    .nav-bar, .icon > ul{
+        flex-direction: column;
+    }
+    /* main section  */
+    
+}
+
+
