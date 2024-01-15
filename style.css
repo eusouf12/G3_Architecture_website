@@ -133,13 +133,14 @@ font-weight: 700;
     border-radius: 8px;
     background-color: #FF900E;
     color: #FFF;
-    width: 300px;
+    width: 240px;
+    height: 100px;
     padding: 30px;
     position: relative;
     bottom: 100px;
 }
 .ten-year h2{
-    font-size: 4rem;
+    font-size: 3.2rem;
     font-weight: 700;
     margin: 0;
 }
@@ -233,7 +234,8 @@ margin: 0px 5px;
        }
        .ten-year{
         position: static;
-        width: 220px;
+        width: 200px;
+        height: 100px;
        }
        footer{
         width: auto;
